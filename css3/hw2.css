@@ -1,16 +1,16 @@
   body{
       margin: auto 0 ;
       padding: 10px 10px;
-      background-color: rgb(192, 226, 158) ;
-      border: forestgreen solid 3px;
+       background-color: #E8DED2 ; 
+        background-image: linear-gradient(#fbb5e6, #5eaaa8,pink);
+      /* border: #60baee solid 3px; */
   }
 
-  #parent {
-      border-bottom: forestgreen solid 3px; 
-  }
+  
   h1 {
      text-align: center;
-      color: rgb(28, 87, 28);
+      color: #056676;
+        text-shadow: 1px 2px palevioletred;
       font-variant: small-caps;
   }
  nav {
@@ -22,7 +22,8 @@
      text-align: center;
       font-size: 20px;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      	opacity: 1;
+        opacity: 1;
+        /* border-image: 20px solid #af0598; */
   
  }
 
@@ -35,7 +36,7 @@
   font-size: 17px;
   margin: 30px 10px;
   border-style: solid;
-  border-color: rgb(44, 95, 28);
+  border-color: #05afaf;
   	opacity: 1;
 
  }
@@ -46,7 +47,9 @@
  .teamppic {
    margin-left: 161px;
      /* display:inline-block; */
-     background-color: #7ab355;
+     background-color: #a3d2ca;
+      /* background-image: linear-gradient(#fbb5e6, #5eaaa8,pink); */
+      
      width: 250px;
      height: 600px;
      background-image: url('/image/team.jpg')   ,url('/image/team.jpg') ,url('/image/team.jpg');
@@ -61,10 +64,123 @@
   padding: 20px;
   margin: 20px 250px ;
   width: 600px;
-  background-color: #c5ecab;
-  height: 540px;
-  border: darkolivegreen double 2px; 
-  }
-   
+     background-color: #E8DED2 ; 
+        background-image: linear-gradient(#fbb5e6, #5eaaa8,pink);
+ 
 
-  /*  */
+  /* #FCA5F1 */
+  /* #B5FFFF */
+
+  height: 540px;
+  /* border: #049e9e double 2px;  */
+  }
+   footer {
+  margin-left: 50%;
+   }
+   
+@media only screen and (max-width: 600px) {
+  body {
+        margin: auto 0 ;
+      padding: 1px 1px;
+       background-color: #E8DED2 ; 
+        background-image: linear-gradient(#fbb5e6, #5eaaa8,pink);
+  }
+
+   nav {
+ float: left;
+   height: 50px;
+   width: 400px;
+  margin: 0 auto; 
+     text-align: center;
+      font-size: 5px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     
+        /* border-image: 20px solid #af0598; */
+  
+ }
+
+  .teamppic {
+   margin-left: 161px;
+     /* display:inline-block; */
+   
+    
+      /* background-image: linear-gradient(#fbb5e6, #5eaaa8,pink); */
+      
+     width: 250px;
+     height: 400px;
+     background-image: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg') ;
+      background-repeat: no-repeat;
+     background-position:right center ;
+      background-size:   180px 300px ;
+           
+ }
+
+
+  article {
+    
+  width: 300px;
+  background-color:    hsl(308, 100%, 89%) ;
+   background-image: linear-gradient(#fbb5e6, #5eaaa8,pink);
+
+  height: 500px;
+  
+  float: right;
+    padding: 20px;
+    margin: 400px 30px;
+  
+    text-align: left !important;
+
+  /* visibility: hidden; */
+
+  }
+  /* .art,h2 {
+/* visibility: hidden; */
+
+
+  h1 {
+      text-align: center;
+      color: #056676;
+       
+      font-size: 30px;
+animation-name: h1;
+  animation-duration: 4s;
+  animation-iteration-count: 90;
+  animation-direction: alternate;  
+  }
+
+  @keyframes h1 {
+  10%   {background-color:palevioletred; left:0px; top:0px;}
+  25%  {background-color:rgb(167, 207, 245); left:50px; top:0px;}
+}
+
+
+   a {
+    color: black;
+     background: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px 10px ;
+  text-decoration: none;
+  font-size: 17px;
+ margin-left: 2px;
+ margin-right: 250px ;
+ margin-bottom: 3px ;
+ margin-top: 50px ;
+  border-style: solid;
+  border-color: #15bbbb;
+  border-radius: 30%;
+     background-image: linear-gradient(#fbb5e6, #5eaaa8,pink);
+  	opacity: 1;
+
+ }
+
+  footer {
+ width: 1400px;
+ height: 90px;
+ margin : 10px 1000px ;
+  }
+  html {
+    width: 400px ;
+    height: 500px;
+  }
+
+}
