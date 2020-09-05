@@ -5,16 +5,37 @@
         background-image: linear-gradient(#fbb5e6, #5eaaa8,pink);
       /* border: #60baee solid 3px; */
   }
+  
 
   
   h1 {
      text-align: center;
-      color: #056676;
+      color: #b91d85;
         text-shadow: 1px 2px palevioletred;
       font-variant: small-caps;
+      font-size: 50px;
+     width: 200px;
+     border: #b91d85 3px solid;
+     border-bottom-right-radius: 100px;
+      border-bottom-left-radius: 100px;
+      border-top-left-radius: 100px;
+      border-top-right-radius:100px;
+      margin-left: 100px;
+      margin-top: 1px ;
+       animation-name: h1;
+  animation-duration: 20s;
+    position: relative;
+      animation-iteration-count: 3;
   }
+
+  @keyframes h1 {
+  0%   {background-color:rgb(246, 161, 228); left:0px; top:0px;}
+  25%  {background-color:#cacccc; left:800px; top:0px;}
+ 75% {background-color:rgb(246, 161, 228); left:20px; bottom:100px;}
+ 
+}
  nav {
-      background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+      background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg") ;
 
    height: 205px;
    width: 1000px;
@@ -23,9 +44,11 @@
       font-size: 20px;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         opacity: 1;
-        /* border-image: 20px solid #af0598; */
-  
+         border-radius: 200px ;
+         border-color: rgb(255, 162, 219);
+       
  }
+
 
  a {
     color: black;
@@ -33,10 +56,14 @@
     display: inline-block;
     padding: 10px 10px ;
   text-decoration: none;
-  font-size: 17px;
+  
+  font: bold  17px  red;
   margin: 30px 10px;
   border-style: solid;
-  border-color: #05afaf;
+  border-color: #d3389f;
+  border-radius: 40%;
+  background-image: linear-gradient(#fbb5e6, #5eaaa8,pink);
+
   	opacity: 1;
 
  }
@@ -56,8 +83,9 @@
       background-repeat: no-repeat;
      background-position:center top , center center ,  center bottom;
        background-size: 180px 80px,  180px 80px ,180px 80px ;
-       
-     
+
+         border-radius: 200px ;
+           
  }
   article {
       float: right;
@@ -66,7 +94,9 @@
   width: 600px;
      background-color: #E8DED2 ; 
         background-image: linear-gradient(#fbb5e6, #5eaaa8,pink);
- 
+          border-radius: 100px ;
+           border-color: #d3389f;
+        
 
   /* #FCA5F1 */
   /* #B5FFFF */
@@ -133,8 +163,9 @@
   /* visibility: hidden; */
 
   }
-  /* .art,h2 {
-/* visibility: hidden; */
+  
+
+
 
 
   h1 {
